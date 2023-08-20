@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ... (head content) ... -->
     <link rel="stylesheet" href="styles.css">
     <title>My GitHub Page</title>
 </head>
@@ -14,16 +13,24 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#" id="projects-link">Projects</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-    <main>
+    <main id="home-content">
         <p>Hello, world! This is my GitHub Pages website.</p>
     </main>
+    <section id="projects" style="display: none;">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="roms.html">Roms</a></li>
+            <li><a href="kernels.html">Kernels</a></li>
+        </ul>
+    </section>
     <footer>
         <p>&copy; 2023 MyGitHubPage. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
+

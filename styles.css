@@ -44,3 +44,7 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+.show {
+    display: block !important;
+}
