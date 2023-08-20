@@ -48,3 +48,15 @@ footer {
 .show {
     display: block !important;
 }
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.logo img {
+    width: 60px; /* Adjust the width as needed */
+    height: 50px; /* Maintain aspect ratio */
+}
